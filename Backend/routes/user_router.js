@@ -19,7 +19,6 @@ const router = express.Router()
 // working code -----------------
 // create account route
     router.post('/createaccount', async (req, res) => {
-    Access-Control-Allow-Private-Network: true
     const newUser = new User({
         name: req.body.name,
         email: req.body.email,

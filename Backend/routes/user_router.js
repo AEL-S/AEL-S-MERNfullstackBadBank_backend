@@ -13,12 +13,13 @@ const User = require('../models/userModel');
 // } = require ('../models/userModel')
 
 const router = express.Router()
-Access-Control-Allow-Private-Network: true
+
 // const bcrypt = require('bcryptjs');
 
 // working code -----------------
 // create account route
     router.post('/createaccount', async (req, res) => {
+    Access-Control-Allow-Private-Network: true
     const newUser = new User({
         name: req.body.name,
         email: req.body.email,

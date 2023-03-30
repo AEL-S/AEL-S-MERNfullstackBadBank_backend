@@ -21,11 +21,6 @@ app.use(express.json());
 // added cookie parser here for auth 
 
 
-Access-Control-Allow-Origin:"https://anna-stegmannfullstackbankingapplicationfrontend.vercel.app/#/"
-
-Access-Control-Allow-Methods:POST, PUT, PATCH, GET, DELETE, OPTIONS
-
-Access-Control-Allow-Headers:Origin, X-Api-Key, X-Requested-With, Content-Type, Accept, Authorization
 
 Access-Control-Allow-Private-Network:true
 

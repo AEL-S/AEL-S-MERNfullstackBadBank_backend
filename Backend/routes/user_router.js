@@ -13,7 +13,7 @@ const User = require('../models/userModel');
 // } = require ('../models/userModel')
 
 const router = express.Router()
-
+Access-Control-Allow-Private-Network: true
 // const bcrypt = require('bcryptjs');
 
 // working code -----------------

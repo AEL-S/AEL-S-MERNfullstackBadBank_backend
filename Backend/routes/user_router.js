@@ -3,7 +3,7 @@
 // UPDATE: This code is functional. I can add users to BadBank db through api/postman. Note: to test in postman I need to use http://localhost:3100/api/post(or whatever the route is set to)
 
 const express = require('express')
-const cors =. require('cors')
+const cors = require('cors')
 const User = require('../models/userModel');
 
 // const UserSchema = require('../models/userModel');

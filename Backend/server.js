@@ -15,14 +15,11 @@ const app = express();
 // const fireBaseAdmin = require('firebase-admin');
 // cant get errors to go away, no longer can connect to server or to db. will probably need to revert all code tomororw. 
 
-app.use(cors());
+app.use(cors(
+Access-Control-Allow-Private-Network:true));
 app.use(express.json());
 // app.use(cookieParser());
 // added cookie parser here for auth 
-
-
-
-Access-Control-Allow-Private-Network:true
 
 
 // if test fails and i need to go back uncomment these below:
